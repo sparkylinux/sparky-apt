@@ -1,5 +1,5 @@
 Sparky APT
-This meta package installs Sparky repository list and preferences file to configure APT for Sparky. Refresh package list after installing or removing sparky-apt package.
+This package installs Sparky repository list and preferences file to configure APT for Sparky. Refresh package list after installing or removing sparky-apt package.
 
 Copyright (C) 2015-2019 Paweł Pijanowski
 
@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Dependencies:
 -------------
-sparky4-apt (>= 20190127) | sparky5-apt (>= 20190127)
+sparky4-apt | sparky5-apt | sparky6-apt
 
 Install:
 -------------
