@@ -1,0 +1,15 @@
+Source: sparky4-apt
+Section: System
+Priority: optional
+Maintainer: pavroo <pavroo@onet.eu>
+Build-Depends: debhelper (>=9), build-essential, coreutils
+Standards-Version: 3.9.6
+Homepage: https://sparkylinux.org/
+
+Package: sparky4-apt
+Architecture: all
+Depends: apt (<= 1.7.9), apt-transport-https, base-files (>= 9.0), base-files (<< 10.0), libc6 (<< 2.28), sparky-keyring
+Conflicts: sparky-apt (<= 4.20181227), sparky5-apt, sparky6-apt
+Replaces: sparky-apt (<= 4.20181227), sparky5-apt, sparky6-apt
+Description: Sparky4 APT
+ This installs Sparky repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian oldstable Stretch only. Refresh package list after installing or removing sparky-apt package.

@@ -1,0 +1,13 @@
+Source: sparky-apt-sb
+Section: System
+Priority: optional
+Maintainer: pavroo <pavroo@onet.eu>
+Build-Depends: debhelper (>=9), build-essential, coreutils
+Standards-Version: 3.9.6
+Homepage: https://sparkylinux.org
+
+Package: sparky-apt-sb
+Architecture: all
+Depends: apt, apt-transport-https, base-files (>= 9), base-files (<< 10), sparky-apt, sparky4-apt, sparky-keyring
+Description: Sparky APT SB
+ This installs Sparky Small Business repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian oldstable Stretch only. Refresh package list after installing or removing sparky-apt package.

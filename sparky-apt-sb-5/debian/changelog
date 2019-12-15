@@ -1,0 +1,5 @@
+sparky-apt-sb (5~20191215-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- pavroo <pavroo@onet.eu>  Sun, 15 Dec 2019 20:56:39 +0100

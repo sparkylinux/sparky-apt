@@ -1,0 +1,4 @@
+### sparky stable small business repository
+### used on sparky based on debian oldstable Stretch only
+deb https://repo.sparkylinux.org/ oldstable sbserver
+deb-src https://repo.sparkylinux.org/ oldstable sbserver

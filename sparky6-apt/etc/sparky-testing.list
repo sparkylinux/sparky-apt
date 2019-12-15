@@ -1,0 +1,8 @@
+### sparky core repository is used by all sparky editions
+deb https://repo.sparkylinux.org/ core main
+deb-src https://repo.sparkylinux.org/ core main
+
+### sparky testing repository
+deb https://repo.sparkylinux.org/ testing main
+deb-src https://repo.sparkylinux.org/ testing main
+
