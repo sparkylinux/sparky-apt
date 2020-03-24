@@ -2,7 +2,7 @@
 deb https://repo.sparkylinux.org/ core main
 deb-src https://repo.sparkylinux.org/ core main
 
-### sparky stable repository
-deb https://repo.sparkylinux.org/ stable main
-deb-src https://repo.sparkylinux.org/ stable main
+### sparky nibiru (stable) repository
+deb https://repo.sparkylinux.org/ nibiru main
+deb-src https://repo.sparkylinux.org/ nibiru main
 

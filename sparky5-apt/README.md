@@ -1,7 +1,7 @@
 Sparky5 APT
 This installs Sparky repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian stable Buster only. Refresh package list after installing or removing sparky-apt package.
 
-Copyright (C) 2015-2019 Paweł Pijanowski
+Copyright (C) 2015-2020 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@ Dependencies:
 -------------
 apt (>= 1.8)
 base-files (>= 10~sparky0)
-base-files (<= 11~sparky0)
+base-files (<< 11~sparky0)
 libc6 (>= 2.28)
 sparky-keyring
 

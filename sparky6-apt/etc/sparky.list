@@ -2,7 +2,7 @@
 deb https://repo.sparkylinux.org/ core main
 deb-src https://repo.sparkylinux.org/ core main
 
-### sparky testing repository
-deb https://repo.sparkylinux.org/ testing main
-deb-src https://repo.sparkylinux.org/ testing main
+### sparky potolo (testing) repository
+deb https://repo.sparkylinux.org/ potolo main
+deb-src https://repo.sparkylinux.org/ potolo main
 

@@ -16,10 +16,10 @@
 
 if [ "$1" = "uninstall" ]; then
    	rm -f /etc/apt/preferences.d/sparky
-	rm -f /etc/apt/sources.list.d/sparky-testing.list
+	rm -f /etc/apt/sources.list.d/sparky.list
 	rm -f /etc/apt/sources.list.d/sparky-unstable.list
 else
 	cp etc/sparky /etc/apt/preferences.d/
-	cp etc/sparky-testing.list /etc/apt/sources.list.d/
+	cp etc/sparky.list /etc/apt/sources.list.d/
 	cp etc/sparky-unstable.list /etc/apt/sources.list.d/
 fi

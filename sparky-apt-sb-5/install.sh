@@ -15,7 +15,7 @@
 #  Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
 
 if [ "$1" = "uninstall" ]; then
-	rm -f /etc/apt/sources.list.d/sparky-stable-sb.list
+	rm -f /etc/apt/sources.list.d/sparky-sb.list
 else
-	cp etc/sparky-stable-sb.list /etc/apt/sources.list.d/
+	cp etc/sparky-sb.list /etc/apt/sources.list.d/
 fi

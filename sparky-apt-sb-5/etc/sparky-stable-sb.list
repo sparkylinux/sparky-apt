@@ -1,4 +1,0 @@
-### sparky stable small business repository
-### used on sparky based on debian stable Buster only
-deb https://repo.sparkylinux.org/ stable sbserver
-deb-src https://repo.sparkylinux.org/ stable sbserver
