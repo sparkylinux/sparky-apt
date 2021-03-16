@@ -1,7 +1,7 @@
 Sparky4 APT
 This installs Sparky repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian oldstable Stretch only. Refresh package list after installing or removing sparky-apt package.
 
-Copyright (C) 2015-2020 Paweł Pijanowski
+Copyright (C) 2015-2021 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -26,11 +26,11 @@ sparky-keyring
 
 Conflics:
 -------------
-sparky-apt (<= 4.20181227), sparky5-apt, sparky6-apt
+sparky-apt (<= 4.20181227), sparky5-apt, sparky6-apt, sparky7-apt, sparky8-apt
  
 Replaces:
 -------------
-sparky-apt (<= 4.20181227), sparky5-apt, sparky6-apt
+sparky-apt (<= 4.20181227), sparky5-apt, sparky6-apt, sparky7-apt, sparky8-apt
 
 Install:
 -------------

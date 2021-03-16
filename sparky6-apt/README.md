@@ -1,5 +1,5 @@
 Sparky6 APT
-This installs Sparky repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian testing Bullseye only. Refresh package list after installing or removing sparky-apt package.
+This installs Sparky repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian Bullseye only. Refresh package list after installing or removing sparky-apt package.
 
 Copyright (C) 2019-2021 Paweł Pijanowski
 
@@ -27,11 +27,11 @@ sparky-apt-unstable
 
 Conflics:
 -------------
-sparky-apt (<= 5.20181227), sparky4-apt, sparky5-apt
+sparky-apt (<= 5.20181227), sparky4-apt, sparky5-apt, sparky7-apt, sparky8-apt
  
 Replaces:
 -------------
-sparky-apt (<= 5.20181227), sparky4-apt, sparky5-apt
+sparky-apt (<= 5.20181227), sparky4-apt, sparky5-apt, sparky7-apt, sparky8-apt
 
 Install:
 -------------

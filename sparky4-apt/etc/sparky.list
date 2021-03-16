@@ -2,6 +2,6 @@
 deb https://repo.sparkylinux.org/ core main
 deb-src https://repo.sparkylinux.org/ core main
 
-### sparky tyche (oldstable) repository
+### sparky tyche repository
 deb https://repo.sparkylinux.org/ tyche main
 deb-src https://repo.sparkylinux.org/ tyche main
