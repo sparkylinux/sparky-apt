@@ -1,7 +1,7 @@
-Sparky6 APT
-This installs Sparky repository list and preferences file to configure APT for Sparky. It is targeted to Sparky based on Debian Bullseye only. Refresh package list after installing or removing sparky-apt package.
+Sparky APT
+This package installs Sparky repository list and preferences file to configure APT for Sparky.
 
-Copyright (C) 2019-2021 Paweł Pijanowski
+Copyright (C) 2015-2021 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,20 +18,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Dependencies:
 -------------
-apt (>= 1.8)
-base-files (>= 11~sparky0)
-base-files (<< 12~sparky0)
-libc6 (>= 2.30)
-sparky-keyring
+apt (>= 1.8), base-files (>= 11~sparky0), base-files (<< 12~sparky0), libc6 (>= 2.30), sparky-keyring
+
+Recommends:
+-------------
 sparky-apt-unstable
 
-Conflics:
--------------
-sparky-apt (<= 5.20181227), sparky4-apt, sparky5-apt, sparky7-apt, sparky8-apt
- 
+Conflicts:
+--------------
+sparky4-apt, sparky5-apt, sparky6-apt, sparky7-apt, sparky8-apt
+
 Replaces:
--------------
-sparky-apt (<= 5.20181227), sparky4-apt, sparky5-apt, sparky7-apt, sparky8-apt
+---------------
+sparky4-apt, sparky5-apt, sparky6-apt, sparky7-apt, sparky8-apt
 
 Install:
 -------------
