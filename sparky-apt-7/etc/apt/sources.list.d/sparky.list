@@ -1,8 +1,8 @@
 ### sparky core repository is used by all sparky editions
-deb https://repo.sparkylinux.org/ core main
-deb-src https://repo.sparkylinux.org/ core main
+deb [signed-by=/usr/share/keyrings/sparky.gpg.key] https://repo.sparkylinux.org/ core main
+deb-src [signed-by=/usr/share/keyrings/sparky.gpg.key] https://repo.sparkylinux.org/ core main
 
 ### sparky orion repository
-deb https://repo.sparkylinux.org/ orion main
-deb-src https://repo.sparkylinux.org/ orion main
+deb [signed-by=/usr/share/keyrings/sparky.gpg.key] https://repo.sparkylinux.org/ orion main
+deb-src [signed-by=/usr/share/keyrings/sparky.gpg.key] https://repo.sparkylinux.org/ orion main
 
