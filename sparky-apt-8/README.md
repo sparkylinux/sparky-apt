@@ -1,5 +1,5 @@
 Sparky APT
-This package installs Sparky repository list and preferences file to configure APT for Sparky. Refresh package list after installing or removing sparky-apt package.
+This package installs Sparky repository list and preferences file to configure APT for Sparky.
 
 Copyright (C) 2015-2023 Paweł Pijanowski
 
@@ -18,7 +18,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Dependencies:
 -------------
-sparky4-apt | sparky5-apt | sparky6-apt
+apt (>= 2.2.4), base-files (>= 13~sparky0), base-files (<< 14~sparky0), libc6 (>= 2.31), sparky-keyring
+
+Recommends:
+-------------
+sparky-apt-unstable
+
+Conflicts:
+--------------
+sparky4-apt, sparky5-apt, sparky6-apt, sparky7-apt, sparky8-apt
+
+Replaces:
+---------------
+sparky4-apt, sparky5-apt, sparky6-apt, sparky7-apt, sparky8-apt
 
 Install:
 -------------
