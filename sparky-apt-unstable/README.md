@@ -1,7 +1,9 @@
 Sparky Unstable APT
 This installs Sparky unstable repository list to configure APT for Sparky. It is targeted to Sparky based on Debian testing. Refresh package list after installing or removing sparky-apt package.
 
-Copyright (C) 2021 Paweł Pijanowski
+As of August 02, 2023, this package does nothing, can be uninstalling.
+
+Copyright (C) 2021-2023 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

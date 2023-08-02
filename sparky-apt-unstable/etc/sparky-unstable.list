@@ -1,3 +1,0 @@
-### sparky unstable repository
-deb [signed-by=/usr/share/keyrings/sparky.gpg.key] https://repo.sparkylinux.org/ unstable main
-deb-src [signed-by=/usr/share/keyrings/sparky.gpg.key] https://repo.sparkylinux.org/ unstable main
