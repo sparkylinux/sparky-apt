@@ -1,0 +1,11 @@
+Types: deb deb-src
+URIs: https://repo.sparkylinux.org/
+Suites: core
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/sparky-repo.asc
+
+Types: deb deb-src
+URIs: https://repo.sparkylinux.org/
+Suites: sisters
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/sparky-repo.asc
